@@ -16,7 +16,7 @@ package main
 
 import (
 	"archive/tar"
-	"compress/gzip"
+	gzip "github.com/klauspost/pgzip"
 	"errors"
 	"fmt"
 	"io/ioutil"

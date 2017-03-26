@@ -18,7 +18,7 @@ import (
 	"archive/tar"
 	"bytes"
 	"compress/bzip2"
-	"compress/gzip"
+	gzip "github.com/klauspost/pgzip"
 	"encoding/hex"
 	"errors"
 	"fmt"
